@@ -15,5 +15,17 @@ source env/bin/activate
 Instalação de dependências
 
 ```bash
-pip install opencv-python && pip install face-recognition
+pip install face-recognition
+```
+
+```bash
+pip install wheel setuptools pip --upgrade
+pip install git+https://github.com/ageitgey/face_recognition_models --verbose
+```
+
+Instalar versões específicas:
+
+```bash
+numpy==1.26.3
+opencv-python==4.9.0.80
 ```
